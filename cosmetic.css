@@ -1,0 +1,93 @@
+
+
+body{
+background-color: pink;
+background-image: url("../css series/img/m.webp");
+}
+
+.name
+{
+    position:absolute;
+    left:600px;
+    top:0px;
+    font-size: xx-large;
+    font-weight:bold;
+    font-style: italic;
+    color:blueviolet;
+}
+
+.beautyitems{
+    list-style:none;
+    max-width: 120px;  
+}
+
+.beautyitems li{
+    list-style: none;
+    position:relative;
+    
+    
+}
+.beautyitems img{
+    display: block;
+    max-width: 120px;
+    margin-top: 50px;
+    
+}
+.beautyitems img:hover{
+    transform:translateX(30px);
+}
+.lipstick{
+    position:absolute;
+    top:220px;
+    right:350px;
+}
+/*
+.girl{
+    position:absolute;
+    top:10%;
+    left:10%;
+    max-width: 500px;
+}*/
+.content{
+    position: absolute;
+    top:20%;
+    max-width: 50%;
+    right:30%;
+}
+
+.content h1{
+
+    
+   position:static;
+    right:450px;
+    top:50px;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 50px,50px,50px whitesmoke;
+    color:aqua;
+}
+.para h3{
+    position:absolute;
+    color:yellow;
+    text-align: center;
+    top:100px;
+    right:650px;
+}
+ ul{
+
+  position: absolute;
+  top:5%;
+  right:5%;
+
+}
+ul li{
+    list-style:none;
+    display: inline;
+    margin-right: 5px;
+}
+ul li a{
+    text-decoration:none;
+    font-size: medium;
+    font-family: sans-serif;
+    color:yellow;
+}

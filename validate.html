@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css series/validate.css">
+    <link rel="stylesheet" href="../css series/validatemsg.html">
+  
+</head>
+
+<body>
+   <div class="h">
+    <h1>Form Validation using HTML,CSS,JavaScript</h1>
+
+   </div>
+    <div class="container">  
+      
+    <form class="group"   action="" method="POST"   name="reg_form" onsubmit="return validateUser()">    
+        <div class="reg">
+        <h2>Registration Form</h2>   
+        </div>
+        <div class="fname1">   
+                <label>First Name: </label> <br>
+                <input type="text" name="fname" placeholder="First Name">    
+        </div>
+        <div class="lname1">        
+                <label>Last Name: </label><br> 
+                <input type="text" name="lname" placeholder="Last Name">  
+        </div>
+        <div class="add1">       
+                <label>Address: </label>       
+                <input type="textarea"  name="address" placeholder="Address">    
+        </div>
+       
+        <div class="mail1">
+                    <label>Email Id: </label>   <br>     
+                <input type="text" name="email" placeholder="example@gmail.com">  
+        </div>
+        <div class="mob1">          
+                <label>Mobile: </label>  <br>     
+                <input type="number" name="mobile">
+        </div>
+        <div class="gen1">       
+            <label>Gender: </label>     
+            <input type="radio" name="gender" value="male">Male    
+            <input type="radio" name="gender" value="femele">Female        
+    </div>        
+        <div class="course1" >
+                <label>Course: </label>        
+                    <select name="course">    
+                        <option value="select course">select course</option>    
+                        <option value="HTML">HTML</option>    
+                        <option value="CSS">CSS</option>    
+                        <option value="JavaScript">JAVASCRIPT</option>    
+                        <option value="Java">JAVA</option>    
+                    </select>    
+         </div>
+         <div class="sub">         
+                <input type="submit" name="submit1" value="Submit">   
+         </div>
+         <div class="res"> 
+                <input type="reset" name="reset1" value="Reset">    
+        </div>
+
+    
+    </form>   
+    </div>
+   
+    <script src="../css series/validate.js"></script> 
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design</title>
+    
+    <link rel="stylesheet" type="text/css" href="../css series/cosmetic.css"/>
+    
+</head>
+
+<body>
+    <div class="name"><h1>NAYAKA</h1></div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>   
+             </div>
+
+                <div class="beautyitems">
+                  
+                    <li><img src="../css series/img/l1.jpg" onclick="lip('../css series/img/l1.jpg')"></li>
+                    <li><img src="../css series/img/p.jpg"  onclick="lip('../css series/img/p.jpg')"></li>
+                    <li><img src="../css series/img/e.jpg" onclick="lip('../css series/img/e.jpg')"></li>
+                    <li><img src="../css series/img/e2.jpg" onclick="lip('../css series/img/e2.jpg')"></li>
+                    <li><img src="../css series/img/r.jpg" onclick="lip('../css series/img/r.jpg')"></li>
+                   
+                </div>
+                <div class="lipstick" >
+                    <img src="../css series/img/l1.jpg" class="lip">
+
+                </div>
+                
+                <div class="content">
+                    <h1>&#x1F60D;Let's Buy Cosmetics&#x1F60D;</h1>
+                </div>
+
+                <div class="para">
+                    <h3>&#x1F618;Makeup is art,Beauty is sprit&#x1F618;</h3>
+                </div>
+                
+            </div>
+</body>
+<script>
+    function lip(img)
+    {
+        document.querySelector('.lip').src=img;
+    }
+   
+</script>
+</html>

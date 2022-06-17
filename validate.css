@@ -1,0 +1,187 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{    
+    font-family:'Times New Roman', Times, serif;   
+    background-color: #5c0aaf;
+    display:flex; 
+    position: relative;
+    
+    left:-30%;
+
+    align-items:center;
+    
+   min-height: 100vh;  
+}
+.container{
+    background-color:gray;
+    border-style: none;
+    height:600px;
+    width:400px;
+    position: relative;
+    left:30%;
+    margin-top: 100px;
+    
+    overflow: hidden;
+    box-shadow: 0px,5px,15px rgba(0,0,0);
+}
+form
+{   
+    
+    margin: 30px 40px;
+    border: 20px royalblue;
+   
+}    
+
+.h h1{
+    
+    color:white;
+    position: relative;
+    left:150%;
+    top:-300px;
+   
+    
+    background-color:rgb(184, 64, 102);
+    
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+       
+    }
+
+h2{
+    color:white;
+    position: relative;
+    background-color:rgb(184, 64, 102);
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}   
+label{
+    font-size: medium;
+}
+
+.group{
+    display:block;
+    padding:10px 20px;
+}
+.fname1{
+    width:250px;
+    padding:10px;
+}
+.lname1{
+    position: relative;
+    padding:10px;
+    width:250px;
+}
+.add1{
+    width:100px;
+    padding:10px;
+}
+.gen1{
+    font-size: medium;
+    padding:10px;
+}
+.reg{
+    color:white;
+    padding:10px;
+    position: relative;
+    top:-20px;
+    left:10px;
+    text-align: center;
+    background-color:rgb(184, 104, 102);
+    border: 2px solid wheat;
+    
+    
+}
+.mob1{
+    padding:10px;
+}
+.course1
+{
+    padding:10px;
+}
+.mail1{
+    padding:10px;
+}
+.sub input{
+   
+   background-color:purple;
+   border: 2px solid;
+   color:white;
+   border-radius:4px;
+   padding:10px 10px;
+   padding-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   font-size:larger;
+   font-weight: bold;
+    width:70px; 
+    height:35px;    
+    position: relative;
+    bottom:-10px;
+    left: 30px;  
+   
+}
+.res input{
+    background-color:purple;
+   border: 2px solid;
+   color:white;
+   border-radius:4px;
+   display: flex;
+   justify-content: center;
+   font-size:larger;
+   font-weight: bold;
+    width: 77px; 
+    height:35px;    
+    position: relative;
+    left: 100px;   
+    bottom:25px;
+    padding:10px;
+    padding-bottom: 20px;
+
+}
+.group label{
+    font-style: italic;
+  
+}
+
+.fname1 input{
+    height:30px;
+    width:200px;
+}
+.lname1 input{
+    height:30px;
+    width:200px;
+}
+.add1 input{
+    height:30px;
+    width:200px;
+}
+.mail1 input{
+    
+        height:30px;
+        width:200px;
+
+}
+.mob1 input{
+    
+    height:30px;
+    width:200px;
+
+}
+.course1 select{
+    
+    height:30px;
+    width:146px;
+
+}
+
+ .sub:hover input{
+    background-color:crimson;
+}
+.res:hover input{
+    background-color:crimson;
+}
